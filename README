@@ -1,0 +1,18 @@
+AI Chat Bot :
+
+1️⃣ Greetings
+If the user types words like:
+"hello", "hi", "hey"
+👉 The chatbot should reply with a greeting message.
+
+2️⃣ Help Queries
+If the user types words like:
+"help", "support", "assist"
+👉 The chatbot should respond with a help message explaining what it can do.
+
+3️⃣ Bug Status Queries
+If the user types words like:
+"bug status", "check bug", "bug update"
+👉 The chatbot should respond with a sample bug status message.
+
+
