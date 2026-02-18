@@ -5,8 +5,8 @@ import requests
 app = Flask(__name__)
 
 #API Configuration:
-api_key="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"
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
+api_key=""
+API_URL = ""
 MODEL = "openai/gpt-4o-mini"
 
 users = {
