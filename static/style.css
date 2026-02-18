@@ -1,18 +1,35 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #d0bae6, #764ba2);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
+.header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px 15px;
+    
+}
+
+.bot-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    object-fit: cover;
+
+}
+
+
 /* Chat Card */
 .chat-wrapper {
     width: 420px;
     height: 600px;
-    background: white;
+    background: #cca3f8;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -22,8 +39,7 @@ body {
 
 /* Header */
 .chat-header {
-    background: #4a3aff;
-    color: white;
+    color: #4a3262;
     padding: 15px;
     font-size: 18px;
     font-weight: bold;
@@ -53,7 +69,7 @@ body {
 /* User Bubble */
 .user-message {
     align-self: flex-end;
-    background: #4a3aff;
+    background: #764ba2;
     color: white;
     border-bottom-right-radius: 5px;
 }
@@ -88,7 +104,7 @@ button {
     padding: 10px 15px;
     border: none;
     border-radius: 20px;
-    background: #4a3aff;
+    background: #764ba2;
     color: white;
     cursor: pointer;
     font-weight: bold;
@@ -96,5 +112,49 @@ button {
 }
 
 button:hover {
-    background: #372bd8;
+    background: #764ba2;
+}
+
+/* User Selector Container */
+.user-select-container {
+    padding: 10px 15px;
+    background: #f3f4ff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #e0e0ff;
+    border-radius: 5px;
+}
+
+/* Label */
+.user-select-container label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* Select Styling */
+#user-select {
+    flex: 1;
+    padding: 8px 12px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    text-decoration: none;
+    background: #ba86ee;
+    color: #4a3262;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover Effect */
+#user-select:hover {
+    border-color: #764ba9;
+}
+
+/* Focus Effect */
+#user-select:focus {
+    border-color: #764ba9;
+    box-shadow: 0 0 5px #764ba9;
 }

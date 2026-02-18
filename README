@@ -16,3 +16,6 @@ If the user types words like:
 👉 The chatbot should respond with a sample bug status message.
 
 
+
+api_key="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"
+#API_KEY = "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"
